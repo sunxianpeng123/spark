@@ -13,3 +13,5 @@ spark_sbt/target/
 spark_sbt/project/target/
 spark_sbt/testOverWrite.parquet/
 spark_sbt/testAppend.parquet/
+spark_streaming/data/
+spark_streaming/target/
