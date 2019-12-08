@@ -8,5 +8,8 @@ spark_maven/testkryo/
 spark_maven/metastore_db/
 spark_maven/people.parquet/
 spark_maven/wordsegsource/
-
 spark_maven/data/test_table/
+spark_sbt/target/
+spark_sbt/project/target/
+spark_sbt/testOverWrite.parquet/
+spark_sbt/testAppend.parquet/
