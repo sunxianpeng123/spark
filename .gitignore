@@ -7,6 +7,6 @@ spark_maven/metastore_db/seg0/
 spark_maven/testkryo/
 spark_maven/metastore_db/
 spark_maven/people.parquet/
-spark_maven/data/
 spark_maven/wordsegsource/
-spark_maven/library/
+
+spark_maven/data/test_table/
