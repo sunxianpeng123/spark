@@ -3,3 +3,10 @@ akka/target/
 kafkaSimpleApi/target/
 scala/target/
 scala_atguigu/target/
+spark_maven/metastore_db/seg0/
+spark_maven/testkryo/
+spark_maven/metastore_db/
+spark_maven/people.parquet/
+spark_maven/data/
+spark_maven/wordsegsource/
+spark_maven/library/

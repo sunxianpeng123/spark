@@ -1,0 +1,5 @@
+PolynomialExpansion ::常见的数据变换有基于多项式的、基于指数函数的、基于对数函数的。
+Discrete Cosine Transform
+Bucketizer
+ElementwiseProduct
+QuantileDiscretizer
