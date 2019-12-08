@@ -1,3 +1,4 @@
 .idea/
 akka/target/
 kafkaSimpleApi/target/
+scala/target/
