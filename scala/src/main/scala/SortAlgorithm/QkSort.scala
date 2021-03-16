@@ -18,8 +18,9 @@ import scala.util.Random
   * \*/
 object QkSort {
   def main(args: Array[String]): Unit = {
-    val testData = new ArrayBuffer[Int]
-    testData += 10;testData += 101;testData += 99;testData += 3;testData += 9;testData += 12;testData += 77;testData += 86;testData += 99;testData += 25
+    //    val testData = new ArrayBuffer[Int]
+    //    testData += 10;testData += 101;testData += 75;testData += 3;testData += 9;testData += 12;testData += 77;testData += 86;testData += 99;testData += 25
+    val testData = ArrayBuffer(10, 101, 75, 3, 9, 12, 77, 86, 99, 25)
     println("testData = "+testData)
     val qkSortData=qksort(testData)
     println("qkSortData = "+qkSortData)
@@ -75,7 +76,6 @@ object QkSort {
         quick_sort(inputData,left,i-1)
         quick_sort(inputData,i+1,right)
       }
-
       inputData
     }
     quick_sort(inputData,0,inputData.length-1)

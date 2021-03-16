@@ -18,8 +18,9 @@ object BubblingSort {
     * @param args
     */
   def main(args: Array[String]): Unit = {
-    val testData = new ArrayBuffer[Int]
-    testData += 10;testData += 101;testData += 75;testData += 3;testData += 9;testData += 12;testData += 77;testData += 86;testData += 99;testData += 25
+//    val testData = new ArrayBuffer[Int]
+//    testData += 10;testData += 101;testData += 75;testData += 3;testData += 9;testData += 12;testData += 77;testData += 86;testData += 99;testData += 25
+    val testData = ArrayBuffer(10, 101, 75, 3, 9, 12, 77, 86, 99, 25)
     println("testData = "+testData)
     val bubblingSortData=bubblingSort(testData)
     println("bubblingSortData = "+bubblingSortData)
@@ -50,7 +51,6 @@ object BubblingSort {
       }
       inputData
     }
-
     inputData
   }
 }
